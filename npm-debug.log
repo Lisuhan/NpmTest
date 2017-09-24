@@ -38,7 +38,7 @@
 23 silly publish   license: 'ISC',
 23 silly publish   readme: '```\nhello world\n```\n',
 23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: '293cad267cbe562be9f085ed4db9000443b74680',
+23 silly publish   gitHead: '6fec81a215b4511b7b1b2987178f54b0150e59b0',
 23 silly publish   _id: 'lsh@1.0.0',
 23 silly publish   _shasum: '2e0e97d46bc378b6c5b3104b1835089d893a292c',
 23 silly publish   _from: '.' }
@@ -61,22 +61,22 @@
 33 silly publish uploading /Users/beisen/.npm/lsh/1.0.0/package.tgz
 34 verbose request uri https://registry.npmjs.org/lsh
 35 verbose request sending authorization for write operation
-36 info attempt registry request try #1 at 18:03:58
+36 info attempt registry request try #1 at 19:20:45
 37 verbose request using bearer token for auth
-38 verbose request id 46c4da31a1a1c6bd
+38 verbose request id a09041b3453e8c02
 39 http request PUT https://registry.npmjs.org/lsh
 40 http 403 https://registry.npmjs.org/lsh
 41 verbose headers { 'content-type': 'application/json',
 41 verbose headers   'cache-control': 'max-age=300',
 41 verbose headers   'content-length': '91',
 41 verbose headers   'accept-ranges': 'bytes',
-41 verbose headers   date: 'Sun, 24 Sep 2017 10:04:00 GMT',
+41 verbose headers   date: 'Sun, 24 Sep 2017 11:20:47 GMT',
 41 verbose headers   via: '1.1 varnish',
 41 verbose headers   connection: 'keep-alive',
-41 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+41 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
 41 verbose headers   'x-cache': 'MISS',
 41 verbose headers   'x-cache-hits': '0',
-41 verbose headers   'x-timer': 'S1506247440.717136,VS0,VE758',
+41 verbose headers   'x-timer': 'S1506252047.041256,VS0,VE720',
 41 verbose headers   vary: 'Accept-Encoding, Accept' }
 42 verbose request invalidating /Users/beisen/.npm/registry.npmjs.org/lsh on PUT
 43 error publish Failed PUT 403
