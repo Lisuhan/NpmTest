@@ -13,24 +13,24 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/beisen/Desktop/npm',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/beisen/.npm/lsh/1.0.0/package.tgz not in flight; packing
+8 verbose addLocalDirectory /Users/beisen/.npm/lsh/1.0.1/package.tgz not in flight; packing
 9 verbose correctMkdir /Users/beisen/.npm correctMkdir not in flight; initializing
-10 info lifecycle lsh@1.0.0~prepublish: lsh@1.0.0
-11 silly lifecycle lsh@1.0.0~prepublish: no script for prepublish, continuing
-12 info lifecycle lsh@1.0.0~prepare: lsh@1.0.0
-13 silly lifecycle lsh@1.0.0~prepare: no script for prepare, continuing
-14 verbose tar pack [ '/Users/beisen/.npm/lsh/1.0.0/package.tgz',
+10 info lifecycle lsh@1.0.1~prepublish: lsh@1.0.1
+11 silly lifecycle lsh@1.0.1~prepublish: no script for prepublish, continuing
+12 info lifecycle lsh@1.0.1~prepare: lsh@1.0.1
+13 silly lifecycle lsh@1.0.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/beisen/.npm/lsh/1.0.1/package.tgz',
 14 verbose tar pack   '/Users/beisen/Desktop/npm' ]
-15 verbose tarball /Users/beisen/.npm/lsh/1.0.0/package.tgz
+15 verbose tarball /Users/beisen/.npm/lsh/1.0.1/package.tgz
 16 verbose folder /Users/beisen/Desktop/npm
-17 verbose addLocalTarball adding from inside cache /Users/beisen/.npm/lsh/1.0.0/package.tgz
+17 verbose addLocalTarball adding from inside cache /Users/beisen/.npm/lsh/1.0.1/package.tgz
 18 verbose correctMkdir /Users/beisen/.npm correctMkdir not in flight; initializing
-19 silly cache afterAdd lsh@1.0.0
-20 verbose afterAdd /Users/beisen/.npm/lsh/1.0.0/package/package.json not in flight; writing
+19 silly cache afterAdd lsh@1.0.1
+20 verbose afterAdd /Users/beisen/.npm/lsh/1.0.1/package/package.json not in flight; writing
 21 verbose correctMkdir /Users/beisen/.npm correctMkdir not in flight; initializing
-22 verbose afterAdd /Users/beisen/.npm/lsh/1.0.0/package/package.json written
+22 verbose afterAdd /Users/beisen/.npm/lsh/1.0.1/package/package.json written
 23 silly publish { name: 'lsh',
-23 silly publish   version: '1.0.0',
+23 silly publish   version: '1.0.1',
 23 silly publish   description: 'test npm',
 23 silly publish   main: 'index.js',
 23 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
@@ -38,12 +38,12 @@
 23 silly publish   license: 'ISC',
 23 silly publish   readme: '```\nhello world\n```\n',
 23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: '6fec81a215b4511b7b1b2987178f54b0150e59b0',
-23 silly publish   _id: 'lsh@1.0.0',
-23 silly publish   _shasum: '2e0e97d46bc378b6c5b3104b1835089d893a292c',
+23 silly publish   gitHead: '4583fd258314b1067e6a095d7aaa74907c5eed21',
+23 silly publish   _id: 'lsh@1.0.1',
+23 silly publish   _shasum: '6d15fc5cef8fc8ca265b8ab54c7b6f960c916938',
 23 silly publish   _from: '.' }
-24 info lifecycle lsh@1.0.0~prepublishOnly: lsh@1.0.0
-25 silly lifecycle lsh@1.0.0~prepublishOnly: no script for prepublishOnly, continuing
+24 info lifecycle lsh@1.0.1~prepublishOnly: lsh@1.0.1
+25 silly lifecycle lsh@1.0.1~prepublishOnly: no script for prepublishOnly, continuing
 26 verbose getPublishConfig undefined
 27 silly mapToRegistry name lsh
 28 silly mapToRegistry using default registry
@@ -58,29 +58,29 @@
 30 silly mapToRegistry   type: 'tag' }
 31 silly mapToRegistry uri https://registry.npmjs.org/lsh
 32 verbose publish registryBase https://registry.npmjs.org/
-33 silly publish uploading /Users/beisen/.npm/lsh/1.0.0/package.tgz
+33 silly publish uploading /Users/beisen/.npm/lsh/1.0.1/package.tgz
 34 verbose request uri https://registry.npmjs.org/lsh
 35 verbose request sending authorization for write operation
-36 info attempt registry request try #1 at 19:20:45
+36 info attempt registry request try #1 at 23:06:36
 37 verbose request using bearer token for auth
-38 verbose request id a09041b3453e8c02
+38 verbose request id a0aec42591f79092
 39 http request PUT https://registry.npmjs.org/lsh
 40 http 403 https://registry.npmjs.org/lsh
 41 verbose headers { 'content-type': 'application/json',
 41 verbose headers   'cache-control': 'max-age=300',
 41 verbose headers   'content-length': '91',
 41 verbose headers   'accept-ranges': 'bytes',
-41 verbose headers   date: 'Sun, 24 Sep 2017 11:20:47 GMT',
+41 verbose headers   date: 'Sun, 24 Sep 2017 15:06:37 GMT',
 41 verbose headers   via: '1.1 varnish',
 41 verbose headers   connection: 'keep-alive',
-41 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+41 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
 41 verbose headers   'x-cache': 'MISS',
 41 verbose headers   'x-cache-hits': '0',
-41 verbose headers   'x-timer': 'S1506252047.041256,VS0,VE720',
+41 verbose headers   'x-timer': 'S1506265597.189437,VS0,VE213',
 41 verbose headers   vary: 'Accept-Encoding, Accept' }
 42 verbose request invalidating /Users/beisen/.npm/registry.npmjs.org/lsh on PUT
 43 error publish Failed PUT 403
-44 verbose stack Error: You cannot publish over the previously published version 1.0.0. : lsh
+44 verbose stack Error: You cannot publish over the previously published version 1.0.1. : lsh
 44 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
 44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
 44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
@@ -99,7 +99,7 @@
 50 error node v7.4.0
 51 error npm  v4.0.5
 52 error code E403
-53 error You cannot publish over the previously published version 1.0.0. : lsh
+53 error You cannot publish over the previously published version 1.0.1. : lsh
 54 error If you need help, you may report this error at:
 54 error     <https://github.com/npm/npm/issues>
 55 verbose exit [ 1, true ]
